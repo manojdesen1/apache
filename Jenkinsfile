@@ -14,7 +14,7 @@ pipeline {
         stage('Git Clone') {
             steps {
                 // Get some code from a GitHub repository
-               git branch: 'main',
+               git branch: 'master',
                url: 'https://github.com/manojdesen1/apache.git'
             }
 
